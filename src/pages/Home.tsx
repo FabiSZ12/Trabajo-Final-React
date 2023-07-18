@@ -1,14 +1,18 @@
 import React from 'react';
-import "../bootstrap.min.css";
+import Navbar from '../component/Navbar'
+
 
 const Home: React.FC = () => {
   return (
     <div>
-      <h2>Bienvenido a nuestro e-commerce</h2>
-      <p>¡Explora nuestra amplia selección de productos!</p>
+          
+            <Navbar/>
+        <h2 style={{ display: 'flex', justifyContent: 'center' }}>Bienvenido a nuestro e-commerce</h2>
+        <br></br>
+        <p style={{ display: 'flex', justifyContent: 'center' }}>¡Explora nuestra amplia selección de productos!</p>
+        
     </div>
   );
 };
 
 export default Home;
-
